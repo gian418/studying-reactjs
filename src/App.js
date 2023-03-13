@@ -1,11 +1,18 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
+  const name = 'Gian'
+
   return (
     <div className="App">
-      <h1>Olá React!</h1>
-      <p>Meu primeiro app</p>
+      <h1>Alterando o JSX</h1>
+      <p>Olá, {name}</p>
+      
+      <HelloWorld />
+    
     </div>
+
   );
 }
 
